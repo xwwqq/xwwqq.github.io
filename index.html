@@ -1,7 +1,75 @@
 <html>
  <head>
+  <style>
+        h1{
+            text-align: center;
+        }
+        p{
+            text-align: center;
+            font-size: 20px;
+            line-height: 20px;
+        }
+        table{
+            margin-left: 300px;
+            margin-bottom: 50px;
+        }
+        #boder1{
+            margin-left: 10px;
+        }
+        .border2{
+            margin-left: 10px;
+            float: left;
+            margin-bottom: 30px;
+        }
+
+        tr{
+
+            line-height: 40px;
+            text-align: center;
+
+        }
+        th ,td{
+            width: 200px;
+            height: 40px;
+        }
+
+        #tr1{
+            line-height: 40px;
+            text-align: center;
+        }
+        #tr1 th{
+            width: 160px;
+            height: 40px;
+        }
+        th,tr{
+            background-color: #ccc;
+        }
+        .ths{
+            background-color: #82ff90;
+        }
+        .border2 td{
+            height:80px ;
+        }
+div{
+    height: 550px;
+}
+        .box{
+            width: 1000px;
+            height: 200px;
+            border: 1px solid black;
+
+
+        }
+        p{
+            line-height: 30px;
+            text-align: center;
+        }
+    </style>
+
  </head>
  <body>
+  <h1>My HomePage</h1>
+
 <p>Hello, teacher</p> 
 <p>this is my homework for this week. I forgot to do my homework last week, so I started to do it this week.</p>
 <p>This is my home page, and I uploaded my project to github.But I may not be able to see the page,</p>
@@ -14,8 +82,163 @@ because some file contents may be deleted by accident.</p>
 <p>Have a nice day !!</p>
 <br />
 <br />
-<p>Name: 王倩</p>
-<p>Student number: 201632120115</p>
+
 <p>The project of making links: https://github.com/xwwqq/Project</p>
+ <table border="1" cellpadding="0" cellspacing="0">
+    <thead>
+    <tr>
+        <th colspan="3" class="ths">Team Information</th>
+    </tr>
+    <tr>
+        <th>Name</th>
+        <th>studentNumber</th>
+        <th>Date</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+        <td>王倩</td>
+        <td>201632120115</td>
+        <td>2019.4.15</td>
+    </tr>
+    </tbody>
+</table>
+<tr/>
+
+<table border="1" cellpadding="0" cellspacing="0" id="boder1">
+    <thead>
+    <tr>
+        <th colspan="7" class="ths">Developer Progress</th>
+    </tr>
+    <tr id="tr1">
+        <th>2018(10.1-10.4)</th>
+        <th>2018(10.4-10.10)</th>
+        <th>2018(10.11-10.18)</th>
+        <th>2018(10.19-10.25)</th>
+        <th>2018(10.26-11.1)</th>
+        <th>2018(11.2-11.8)</th>
+        <th>2018(11.9-11.16)</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+        <td>system requirements</td>
+        <td>requirements analysis</td>
+        <td>general design</td>
+        <td>detailed design</td>
+        <td>realize the goal</td>
+        <td>integration testing</td>
+        <td>acceptance test</td>
+    </tr>
+
+    </tbody>
+</table>
+<div>
+    <table border="1" cellpadding="0" cellspacing="0" class="border2">
+        <thead>
+        <tr>
+            <th colspan="2" class="ths">system requirements</th>
+        </tr>
+        <tr>
+            <th>ground work</th>
+            <th>document</th>
+
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td>Investigate user needs and user environment</td>
+            <td></td>
+
+
+        </tr>
+        <tr>
+            <td>Demonstrate the feasibility of the project</td>
+            <td>Project preliminary development schedule</td>
+        </tr>
+        <tr>
+            <td>Develop a preliminary project plan</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>Review the development plan</td>
+            <td></td>
+        </tr>
+        </tbody>
+    </table>
+    <table border="1" cellpadding="0" cellspacing="0" class="border2">
+        <thead>
+        <tr>
+            <th colspan="2" class="ths">Requirements analysis</th>
+        </tr>
+        <tr>
+            <th>ground work</th>
+            <th>document</th>
+
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td>Determine the operating environment of the system</td>
+            <td>requirement specification</td>
+
+
+        </tr>
+        <tr>
+            <td>Establish the system logical model</td>
+            <td>Project development plan</td>
+        </tr>
+        <tr>
+            <td>Determine system function and performance requirements</td>
+            <td>User manual summary</td>
+        </tr>
+        <tr>
+            <td>Confirm the project development plan</td>
+            <td></td>
+        </tr>
+        </tbody>
+    </table>
+    <table border="1" cellpadding="0" cellspacing="0" class="border2">
+        <thead>
+        <tr>
+            <th colspan="2" class="ths">general design</th>
+        </tr>
+        <tr>
+            <th>ground work</th>
+            <th>document</th>
+
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td>divide the functional modules</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>Define the interface of each functional module</td>
+            <td>Database design specification</td>
+        </tr>
+        <tr>
+            <td>DBD(Database Design)</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>Make assembly test plan</td>
+            <td></td>
+        </tr>
+        </tbody>
+    </table>
+</div>
+<div class="box">
+    <p>
+        This week I mainly reviewed the code of my project and looked at the project optimization,
+        trying to achieve a more complete project.
+        I found that my project still needs to be improved a lot.
+        However, there was a problem at the end of the project last semester.
+        I deleted some files accidentally due to my carelessness,
+        so I am now trying to complete my original project.
+    </p>
+</div>
+
 </body>
 </html>
